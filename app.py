@@ -25,9 +25,10 @@ if up is None:
     st.stop()
 
 df = pd.read_csv(up)
+df.columns = [c.strip().replace(" ", "_") for c in df.columns]
 if TARGET not in df.columns:
     st.error(f"Uploaded file must contain the target column '{TARGET}'."); st.stop()
-X, y = df.drop(columns=TARGET), df[TARGET]
+X, y = df.drop(columns=TARGET), df[TARGET].astype(int)
 st.write(f"Uploaded {len(df)} rows, {X.shape[1]} features.")
 
 try:
