@@ -12,9 +12,9 @@ Cardiotocography (CTG) records the fetal heart rate and uterine contractions dur
 - **Preprocessing:** `StandardScaler` inside a pipeline for Logistic Regression, KNN and SVM (fit on training data only). Decision Tree and Naive Bayes use raw features. The scaler is saved inside each model file.
 
 ## c. GitHub Repository Link  
-`<PASTE YOUR GITHUB REPO URL HERE>`
+`https://github.com/GuruGauthamN/FetalHealthMLClassifier`
 
-
+# Streamlit App link: https://fetalhealthmlclassifier.streamlit.app/
 
 ```
 ML Assignment 2/
