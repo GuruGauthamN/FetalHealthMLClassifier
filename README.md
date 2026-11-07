@@ -1,4 +1,4 @@
-# Fetal Health Classification (CTG data) – 5 ML Models + Streamlit App
+# Fetal Health Classification
 
 ## a. Problem Statement
 Cardiotocography (CTG) records the fetal heart rate and uterine contractions during pregnancy. Obstetricians read these traces to judge fetal well-being, which is subjective and time-pressured. The goal is to build and compare five machine learning classifiers that predict fetal health from 21 numeric CTG features, as **Normal (1)**, **Suspect (2)** or **Pathological (3)**, and to expose the trained models through an interactive Streamlit app that evaluates them on an uploaded test CSV.
@@ -14,7 +14,7 @@ Cardiotocography (CTG) records the fetal heart rate and uterine contractions dur
 ## c. GitHub Repository Link  
 `https://github.com/GuruGauthamN/FetalHealthMLClassifier`
 
-# Streamlit App link: https://fetalhealthmlclassifier.streamlit.app/
+`Streamlit App link: https://fetalhealthmlclassifier.streamlit.app/`
 
 ```
 ML Assignment 2/
